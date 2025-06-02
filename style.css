@@ -194,3 +194,25 @@ footer {
 footer h2{
     margin: 0px;
 }
+
+footer .top{
+    right:20px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.top:hover{
+    background-color:burlywood;
+}
+
+.top.show{
+    display:block;
+    opacity: 1;
+}
