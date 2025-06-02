@@ -45,7 +45,6 @@ nav ul li a:hover{
     color: orange;
     font-size: 20px;
     text-decoration: underline;
-    transition: width 0.3s ease-in-out;
 }
 
 
