@@ -195,7 +195,9 @@ footer h2{
     margin: 0px;
 }
 
-footer .top{
+.top{
+    display: none;
+    opacity: 0;
     right:20px;
     bottom: 50px;
     height: 50px;

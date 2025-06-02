@@ -1,16 +1,16 @@
 console.log("Hello from my portfolio!");
 
-const top = document.getElementById('top');
+const topBtn = document.getElementById('top');
 
 window.addEventListener('scroll', () => { 
     if (window.pageYOffset > 300) { 
-        top.classList.add('show');
+        topBtn.classList.add('show');
     } else { 
-        top.classList.remove('show');
+        topBtn.classList.remove('show');
     }
 });
 
-top.addEventListener('click', () => {
+topBtn.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth' 
